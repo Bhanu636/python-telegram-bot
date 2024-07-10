@@ -3,3 +3,4 @@
 pre-commit
 -r requirements-unit-tests.txt
 -r docs/requirements-docs.txt
+zipp>=3.19.1 # not directly required, pinned by Snyk to avoid a vulnerability
